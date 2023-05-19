@@ -1,0 +1,15 @@
+snippet int "generic integral" w
+\int_{${1:\Omega}}^{$2} $3 \dd{${4:\mu}}$0
+endsnippet
+
+snippet dv "derivative" w
+\dv[$1]{$2}{${3:x}}$0
+endsnippet
+
+snippet pdv "partial derivative" w
+\pdv[$1]{$2}{${3:x}}$0
+endsnippet
+
+snippet map "mapping" w
+${1:f}: ${2:\Omega}\to ${3:\mathbb{R}},\, ${4:x} \mapsto ${5:$1($4):=}
+endsnippet

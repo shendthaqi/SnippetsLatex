@@ -1,0 +1,55 @@
+snippet seq "sequence" w
+($1_{${2:n}})_{$2}$0
+endsnippet
+
+snippet set "set" w
+\set*{$1; $2}$0
+endsnippet
+
+snippet 1N "finite sequence" w
+{$1}_{${2:1}} ${3:,} \dots $3 {$1}_{${4:N}} $0
+endsnippet 
+
+snippet ( "round bracket" w
+($1)$0
+endsnippet
+
+snippet [ "square bracket" w
+[$1]$0
+endsnippet
+
+snippet \{ "curly bracket" w
+\{$1\}$0
+endsnippet
+
+snippet (( "large round brackets" w
+\left($1\right)$0
+endsnippet
+
+snippet [[ "large square brackets" w
+\left[$1\right]$0
+endsnippet
+
+snippet \{{ "large curly brackets"
+\left\{$1\right\}$0
+endsnippet
+
+snippet [[: "large square bracket with conditional delimiter" w
+\setsquared*{$1 ;$2}$0
+endsnippet
+
+snippet ((: "large round bracket with conditional delimiter" w
+\setround*{$1 ;$2}$0
+endsnippet
+ 
+snippet ssq "subseteq" w
+\ssq 
+endsnippet
+
+snippet wo "setminus" w
+\setminus 
+endsnippet
+
+snippet emty "emptyset" w
+\emptyset 
+endsnippet

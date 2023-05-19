@@ -1,0 +1,95 @@
+snippet infty "infty" w
+\infty 
+endsnippet
+
+snippet ninf "n to infty" w
+n\to\infty 
+endsnippet
+
+snippet Ninf "N to infty" w
+N\to\infty 
+endsnippet
+
+snippet minf "m to infty" w
+m\to\infty 
+endsnippet
+
+snippet Minf "M to infty" w
+M\to\infty 
+endsnippet
+
+snippet kinf "k to infty" w
+k\to\infty 
+endsnippet
+
+snippet Kinf "K to infty" w
+K\to\infty 
+endsnippet
+
+snippet sto "converges strongly to" w
+\myxrightarrow[$1]{$2} $0
+endsnippet
+
+snippet wto "convergences weakly to" w
+\myxrightharpoonup[$1]{$2} $0
+endsnippet
+
+snippet abs "absolute value" w
+\abs{$1} $0
+endsnippet
+
+snippet max "maximum" w
+\max_{$1} $0
+endsnippet
+
+snippet min "minimum" w
+\min_{$1} $0
+endsnippet
+
+snippet sup "supremum" w
+\sup_{$1} $0
+endsnippet
+
+snippet inf "infimum" w
+\inf_{$1} $0
+endsnippet
+
+snippet argmin "minimizer" w
+\operatorname*{arg\,min}$0
+endsnippet
+
+snippet argmax "maximizer" w
+\operatorname*{arg\,max}$0
+endsnippet
+ 
+snippet lim "limit" w
+\lim_{${1:n} \to ${2:\infty}} 
+endsnippet
+
+snippet limsup "limsup" w
+\varlimsup_{${1:n} \to ${2:\infty}} 
+endsnippet
+
+snippet liminf "liminf" w
+\varliminf_{${1:n} \to ${2:\infty}} 
+endsnippet
+
+snippet prod "product" w
+\prod_{${1:n=1}}^{${2:\infty}} 
+endsnippet
+
+snippet sum "sum" w
+\sum_{${1:n=1}}^{${2:\infty}} 
+endsnippet
+
+snippet norm "norm" w
+\norm{$1}_{$2}$0
+endsnippet
+
+snippet cap "bigcap" w
+\bigcap_{${1:n}=${2:1}}^{${3:\infty}}
+endsnippet
+ 
+snippet cap "bigcup" w
+\bigcup_{${1:n}=${2:1}}^{${3:\infty}}
+endsnippet
